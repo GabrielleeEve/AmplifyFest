@@ -1,0 +1,116 @@
+/* FULL PAGE */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-image: linear-gradient(#ff66c4, #ffde59);
+    background-size: 100% 100%; /* Stretch the background color to cover the entire viewport */
+    background-repeat: no-repeat;
+  }
+
+/* BANNER - HEADER */
+
+marquee {
+    font-family: 'Audiowide', cursive;
+    background-color:black;
+    color: yellow;
+    position: absolute;
+}
+
+#M1 {
+    bottom: 1px;
+}
+header {
+    background-color: #0000002b;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+h1 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: xx-large;
+    color: black;
+    margin:1em;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+#Banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; /* Set background-size to cover */
+    background-repeat: no-repeat;
+    height: 100%
+}
+
+#Banner ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+#Banner li {
+    font-size: x-large;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    font-family: 'Audiowide', cursive;
+    padding-right: 2em;
+    padding-top: 50px;
+}
+
+/* MAIN BODY */
+#Content {
+    margin-top: 1em;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+/* FOOTER */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 8vh; /* Height of the footer */
+    background: #00000051;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Column1 {
+    color: white;
+    font-family: 'Audiowide', cursive;
+    font-size: small;
+    width: 50%;
+    padding: 1em;
+}
+
+#Column1 li {
+    list-style-type: none;
+}
+
+#Column2 {
+    color: white;
+    font-family: 'Audiowide', cursive;
+    width: 50%;
+    padding: 1em;
+    justify-content: space-between;
+    text-align: right; /* Align text to the right within Column2 */
+}
+
+#Column2 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#Column2 ul li {
+    display: inline-block; /* Make the list items side by side */
+    margin-right: 10px; /* Add some spacing between the list items */
+}
