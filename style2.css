@@ -115,8 +115,6 @@ header {
   right: 35%;
 
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 #Feature-Image {
@@ -132,26 +130,34 @@ header {
   margin-bottom: 10em;
 }
 
+/* FAQs Accordian*/
+
 .accordian {
+  width: 80% !important;
   z-index: 1;
 }
 .accordian-item {
+  width: 80% !important;
   z-index: 1;
 }
 
 .accordian-header {
+  width: 80% !important;
   z-index: 1;
 }
 
 .accordian-button {
+  width: 80% !important;
   z-index: 1;
 }
 
 .accordion-collapse {
+  width: 80% !important;
   z-index: 1;
 }
 
 .accordian-body {
+  width: 80% !important;
   z-index: 1;
 }
 /* FOOTER */
